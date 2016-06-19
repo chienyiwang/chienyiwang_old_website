@@ -4,6 +4,43 @@
   
     
     <entry>
+      <title><![CDATA[Honda Research Intern Week 4]]></title>
+      <url>https://chienyiwang.github.io/2016/06/18/Honda-Research-Intern-Week-4/</url>
+      <content type="html"><![CDATA[<h1 id="Work"><a href="#Work" class="headerlink" title="Work"></a>Work</h1><ul>
+<li>這禮拜總算有些還不錯的進度，雖然還沒有太多自己想的部分，比較多是把已經有的code拿來看懂，改一改一些部分並且把東西串接起來</li>
+<li>寫了一些c++/python/matlab，前兩天試了一個detection的algorithm，後面試了另一個segmentation的algorithm</li>
+<li>survey了一些paper，瞭解了一下做這個問題的人都發paper發在哪些conference。不過由於這個問題現在相對比較偏應用，比較沒有太多的benchmark，也不像是CV的conference這麼競爭各種比較performance，不過學長也說我們現在比較像是在幫公司做出一個prototype，試驗一下可行性，讓公司可以看到一些潛在的價值。我想這也是公司跟學校做研究比較大的不同吧。</li>
+<li>禮拜五把結果整理了一下，跟學長還有mentor報告了目前進度，他們都還滿滿意的（不過他們人本來就都很好XD）</li>
+<li>原來我們的組長已經是公司的Principal Scientist，所以比較不用專注在technical的部分，只要負責想project擬定策略。目前感覺他比較像是一個Principal Presenter，最近常常看他在弄一些要跟上級報告的投影片XD</li>
+<li>整個公司的Principal Scientist其實也只有兩三個，我左邊的intern的德國人mentor就是一個，每天就是走過去問問他做得如何了，然後講了一些high-level idea後就離開去跟HR聊天了XD</li>
+<li>最近大家好像都陸續要去一些Conference，公司慢慢的少了一些人，氣氛好像也輕鬆了一些。希望能夠趕在國慶放假前，做出一個Baseline，心態也會比較放鬆一些</li>
+</ul>
+<h1 id="After-work"><a href="#After-work" class="headerlink" title="After work"></a>After work</h1><ul>
+<li>看了兩場NBA冠軍賽，一場跟呂懷令霆couple去酒吧看，一場在跑步機上邊跑邊看，結果兩場勇士都被虐翻天，好扯，希望禮拜天能夠一次大爆發拿下總冠軍（雖然話說如此，但看到James那麼勇猛，其實也滿想要讓他能夠幫騎士拿下一座冠軍的XD</li>
+<li>張乃文上來都不揪的，還是Jennifer跟我說了我才知道。禮拜三晚上吃了一家在Cupertino的台南風味小吃，蘿蔔糕真的很OP。老闆娘發現我們是台灣人一直跟我們講台語，講完了就去旁邊調戲老美，真的深不可測。</li>
+<li>禮拜五提早下班去參觀了Apple總部，想想其實從小學ipod第二代開始就已經中Apple的毒了。好多紀念品都滿有質感的很好看，衝動購物完才發現其實每個都滿貴的… 幸好有呂帥幫我們打折</li>
+</ul>
+<h1 id="Interview-practice"><a href="#Interview-practice" class="headerlink" title="Interview practice"></a>Interview practice</h1><p>人很好的mentor Yi-Ting學長，因為聽到Jennifer要在UT Austin找新的advisor聊天，於是禮拜五就找我們來個模擬面試，想要讓我們練習用英文講講自己在這邊做的project，幫我們改善並提醒一些點（有這樣的學長真的很感人）：</p>
+<h2 id="表現自信"><a href="#表現自信" class="headerlink" title="表現自信"></a>表現自信</h2><p>其實我並不是個非常有自信的人，常常在比較強勢或是個性強的人面前表現會有點抖，但來這邊真的滿幸運的，遇到的人都很溫和也很樂於助人，就比較沒有不敢講的問題。反而Jennifer更缺乏自信，常常會說”I’m sorry”或是自己英文不好，各種反應有時候也會讓人哭笑不得，一開始真的覺得她是另一個維度的人XD。學長也趁機點出她這個缺點，在面試或是介紹自己的時候，不要表現的沒自信或是進行各種事前事後道歉，<br>反而應該肯定的把自己做過的事、會的東西好好地講出來。“Don’t frequently say I’m sorry”，華人的文化跟教育底下的我們，常常會在各種場合表現出謙讓與道歉，但在美國的社會文化中，其實大部分的狀況下是完全相反的，有時太過謙虛或是太常表示抱歉，很多機會或許就因此不見了。</p>
+<h2 id="Profile-Yourself"><a href="#Profile-Yourself" class="headerlink" title="Profile Yourself"></a>Profile Yourself</h2><p>這個詞其實是昨天看blacklist影集學到的XD 找教授的時候，教授並不會期待你把他的paper都弄很懂。當然對教授基本的了解是必須的，但教授其實更想要藉由面試得知你的人格跟個性，因此如果能想好一個有條理的方式來Profile Yourself，給人的第一印象就會加分很多。在公司的求職面試這個部分也是挺重要的，就我所知像是Facebook就會很重視Culture Match這塊，預測未來你會不會是個好的合作夥伴。</p>
+<p>##不要用冗餘的發音不確定的英文單字<br>我自己滿常在潛意識中想要讓我講的英文句子更為豐富，因此不知不覺的把句子講的很長，或是加入一些其實我不是很確定用法的單字。其實很多時候稍微多想一個一下下，就能用更簡潔並清楚的句子表達出來。如果用了奇怪的單字或句子，輕微者對方可能會錯愕一下，嚴重的話反而會造成一些溝通上的誤會。另外我覺得平時訓練英文口說、搞懂單字的發音也很重要，上學期在USC修了助教英文課，才發現很多字我用自以為正確的發音在講，反而會讓很多老外聽不懂我在說什麼，即使口型只差了一點點，但是就會造成一些溝通上的不順。</p>
+<h2 id="每一件事都有一個大的目標跟原因"><a href="#每一件事都有一個大的目標跟原因" class="headerlink" title="每一件事都有一個大的目標跟原因"></a>每一件事都有一個大的目標跟原因</h2><p>在學校做研究，有時候可能是不小心被分配到了這個題目，或是實驗室就是都在做這個方向；但是在公司做的Project，其實背後往往有一個以公司角度來看更重要的願景或是目標。介紹的時候，可以先從這些大眾比較易懂的願景目標開始講起，引發對方的興趣之後，再慢慢downscale到正在做的Project細節。講Project的細節時，也可以考慮採用寫Paper的方式，把Related Works大致介紹過，提出了需要改進的地方，再說明自己的方法以及實驗的performance，會更加完整具有說服力。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Honda Research Intern Week 3]]></title>
+      <url>https://chienyiwang.github.io/2016/06/18/Honda-Research-Intern-Week-3/</url>
+      <content type="html"><![CDATA[<h1 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h1><p>這禮拜都在看code 跟熟悉ROS的環境比較多<br>還有試一下point cloud segmentation跟car detection<br>並且把討厭的非同步data全部都整理好<br>禮拜五很難得的溫柔的組長要找我們開個會<br>看看我們最近的進度如何<br>自從第一天跟他吃過飯之後 其實滿少講到話的XD<br>因為我們做的東西跟mentor的直接相關<br>因此有問題都會直接問學長<br>組長大概也是覺得這樣下去會跟我們很不熟<br>就說要瞭解一下我們有沒有什麼要幫助的</p>
+<p>其實想想這樣的regular weekly meeting是比較好的<br>能夠把每個禮拜做的東西做個統整<br>也會更清楚下一步要做什麼<br>並設下下一個禮拜或是幾個禮拜後的目標<br>突然懷念起了在USC做研究寫weekly report的時光 囧</p>
+<h1 id="Eat"><a href="#Eat" class="headerlink" title="Eat"></a>Eat</h1><p>這禮拜吃了好幾天的symantec的餐廳<br>因為他們辦公室也不是很遠<br>有幾個老外員工說要帶我們去吃看看 於是就跟著去了<br>結帳的時候稍微騙一下就可以拿到員工discount orz<br>不過東西就是一般學校可以吃到的等級<br>所以我們後來還是都喜歡自己去其他地方吃中式or日式食物</p>
+<h1 id="Social-Time"><a href="#Social-Time" class="headerlink" title="Social Time"></a>Social Time</h1><p>乃文的表姐Jennifer是我同事<br>當初也算是一起進來的<br>雖然她研究所是念清大<br>但是莫名的認識了好多在這邊台大電機的同學<br>因此禮拜四晚上透過他的揪團<br>讓我一次認識了好多學弟妹以及學長＠＠<br>還有幾個正在念stanford的同學<br>聊一聊才發現有幾個USC的共同好友<br>還是當兵的學長學弟關係XD<br>世界真的很小</p>
+<p>好久沒看到曾令霆了<br>禮拜四結束後又去他家吃肉粽<br>看他們couple都找到了工作安定下來<br>開始各種想著要怎麼來佈置家裡的擺設<br>覺得還是滿羨慕的@@</p>
+<p>來實習後的每個週末<br>即使本來本來還想說要念點書 結果幾乎沒時間<br>有時候感覺沒有趁機去一些地方走走好像滿可惜<br>這個禮拜五下班後跟從LA上來的Peter他們吃飯<br>一起看NBA總冠軍賽 玩了桌遊 也認識了幾個新朋友<br>禮拜六跟曾令霆couple還有acsa去海邊爬爬山<br>禮拜天跟Stanford眾 走了學校旁邊很簡單的登山路線<br>下午參觀了一下Stanford 剛好還撞上了畢業典禮<br>滿滿的校園氣氛 以及各國的家長充滿了校園的角落<br>又參觀了De-An學長的Fei-Fei Li實驗室<br>在學長旁邊整個氣場很強 完全是不同level的研究＠＠</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Honda Research Intern Week 2]]></title>
       <url>https://chienyiwang.github.io/2016/06/13/Honda-Research-Intern-Week-2/</url>
       <content type="html"><![CDATA[<p>最近突然好多心理層面的事情想要抒發XD<br>好想再跟好友們聊聊天掏心掏肺<br>＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝</p>
