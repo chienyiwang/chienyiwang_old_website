@@ -46,7 +46,7 @@
       <title><![CDATA[Honda Research Intern Week 2]]></title>
       <url>https://chienyiwang.github.io/2016/06/13/Honda-Research-Intern-Week-2/</url>
       <content type="html"><![CDATA[<p>最近突然好多心理層面的事情想要抒發XD<br>好想再跟好友們聊聊天掏心掏肺<br>＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝</p>
-<p><img src="/images/intern.jpg" alt="同事們"><br><img src="/images/gym.jpg" alt="健身房"></p>
+<p><img src="/images/intern.jpg" alt="同事們" title="Intern同事們"><br><img src="/images/gym.jpg “City Sports in Mountain View" alt="健身房"></p>
 <a id="more"></a>
 <h1 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h1><p>因為禮拜一放假 四天感覺一下子就過了 沒有太多進度有點罪惡感＠＠<br>前兩天主要是在refine題目 跟安裝一些環境<br>caffe在除了linux之外的環境真的有點難裝<br>mac最後還是有些bug沒有裝成功 不過mac的GPU也不夠力於是就算了<br>公司的電腦有些權限問題 一開始裝也是卡卡<br>最後學長拿了一條GPU給我裝在local的電腦上<br>好不容易才把整個環境弄好<br>不過其實很多工具之前也都不太熟<br>要寫一些簡單的python程式 也是東查西查搞了一段時間<br>有時候感覺看看資料 一個早上或是下午就不見了＠＠<br>後兩天在處理一些data的synchronization的問題<br>這次主要會用到的data應該有GPS/IMU, LiDAR, Camera<br>當初在紀錄data的時候 用的是不同的平台<br>還要從很大的log file去抓出需要的data做處理<br>也是搞了滿大一段時間</p>
 <p>這邊環境真的還是滿像實驗室的<br>不像其他大公司 可能已經有些之前維護好的code可以參考<br>或是已經有一套大的backend系統<br>我們比較多還是要自己去弄一個project<br>寫code應該也不會有太多要求<br>intern的目標應該也只是把東西兜出來<br>最後可以demo一個雛形就差不多了吧</p>
@@ -65,7 +65,7 @@
     <entry>
       <title><![CDATA[Honda Research Intern Week 1]]></title>
       <url>https://chienyiwang.github.io/2016/06/07/Honda-Research-Intern-Week-1/</url>
-      <content type="html"><![CDATA[<p><img src="/images/honda1.jpg" alt="我的座位"><br><img src="/images/honda2.jpg" alt="酷炫的概念車"></p>
+      <content type="html"><![CDATA[<p><img src="/images/honda1.jpg “我的座位“" alt="我的座位"><br><img src="/images/honda2.jpg ”酷炫的概念車“" alt="酷炫的概念車"></p>
 <a id="more"></a>
 <h1 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h1><p>原本前幾天學長跟我講說要做的題目是一個關於GPS的應用<br>因此後來兩天都在看一些paper 很多都是在ACM GIS底下的<br>但是後來越想越覺得有點模糊 也覺得問題不是很有趣<br>學長大概也看出來其中的問題<br>於是就跟mentor一起說要找我禮拜四再重新來發想一下<br>禮拜四當天早上開始邊看東西邊畫一些mindset graph<br>做了一個簡單的投影片 下午跟他們開會討論<br>其中一個點子被mentor稱讚還滿不錯的 頗有成就感的XD<br>於是現在應該是循著這個大方向前進<br>但是有些細節還要慢慢再弄</p>
 <h1 id="同事"><a href="#同事" class="headerlink" title="同事"></a>同事</h1><p>Intern現在總共有七個人<br>四個中國人 兩個台灣人（都是彰化人XD<br>加上一個印度一個巴基斯坦人<br>但是平常附近都是中國人<br>這幾天中午吃飯也不知不覺變成是華人聚會<br>印度人跟巴基斯坦人貌似也都有自己帶飯來吃<br>想想講到的英文還真是沒有很多＠＠<br>但這種事也沒什麼好強求的<br>幾個中國人都還滿好相處的 也都感覺得出來還滿厲害的<br>希望可以一起討論一起變強</p>
