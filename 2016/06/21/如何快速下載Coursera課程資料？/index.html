@@ -96,7 +96,7 @@
 <meta property="og:image" content="https://chienyiwang.github.io/images/coursera_1.png">
 <meta property="og:image" content="https://chienyiwang.github.io/images/coursera_2.png">
 <meta property="og:image" content="https://chienyiwang.github.io/images/coursera_3.png">
-<meta property="og:updated_time" content="2016-06-22T07:23:10.000Z">
+<meta property="og:updated_time" content="2016-06-22T07:25:02.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何快速下載Coursera課程資料？">
 <meta name="twitter:description" content="MOOC 越來越盈利化Coursera也算是線上教育MOOC(Massive Open Online Course)的始祖了，2012年一推出的時候，課程其實沒有太多選擇。不過幾個Computer Science的課程都是來自美國有名的大學，內容也做得還滿好的，想當初開始對於一些CS的課程產生興趣，常常會去Coursera或是Udacity找好玩的課程來註冊。這樣的課程通常一集影片大概只有5-10">
@@ -405,13 +405,11 @@
 </ol>
 <h3 id="方法三：使用Python-package-“coursera-dl”"><a href="#方法三：使用Python-package-“coursera-dl”" class="headerlink" title="方法三：使用Python package “coursera-dl”"></a>方法三：使用Python package “coursera-dl”</h3><p>詳細的使用方法可以參考作者的github連結[2]，這邊說明最直接的做法。</p>
 <ol>
-<li><p>(Recommended for all Operating Systems) 用pip下載package</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install coursera-dl</span><br></pre></td></tr></table></figure>
+<li><p>(Recommended for all Operating Systems) 用pip下載package<br><code>pip install coursera-dl</code></p>
 </li>
 <li><p>在課程頁面網址，我們可以找到課程的id。如：/class.coursera.org/mmds-001/的id就是”mmds-001”。若是覺得要點進去課程頁面看網址很麻煩，在<a href="https://www.class-central.com/collection/coursera-old-stack-all" target="_blank" rel="external">Class Central</a>裡的課程介紹，若是已經要停止供應的課程， 一開始會有個紅色框框，警告此課程在6/30之後就無法使用，下面可以找到課程的id：<br><img src="/images/coursera_3.png" alt=""><br>有些id可能是無法被下載的，通常選比較前面一點的比較不會失敗。</p>
 </li>
-<li><p>有了course_id之後，輸入下面指令就會開始下載了。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">coursera-dl -u &lt;Coursera帳號/信箱&gt; -p &lt;密碼&gt; &lt;id_1&gt; &lt;id_2&gt; ... &lt;id_n&gt;</span><br><span class="line">Ex: coursera-dl -u dora12402@gmail.com -p Password1 mmds-001 nlp</span><br></pre></td></tr></table></figure>
+<li><p>有了course id之後，輸入下面指令就會開始下載了。<br><code>coursera-dl -u &lt;Coursera帳號/信箱&gt; -p &lt;密碼&gt; &lt;id_1&gt; &lt;id_2&gt; ... &lt;id_n&gt;</code><br>Ex: <code>coursera-dl -u dora12402@gmail.com -p Password1 mmds-001 nlp</code></p>
 </li>
 </ol>
 <p>Reference:</p>
