@@ -11,7 +11,7 @@
 <p>直到去年大概又看到一些大家推薦的課程，想要回來看看，才發現整個網站風格都不一樣了。大概是因為獲得了VC的融資，因此現在的首頁上充滿了各種套裝課程的促銷(Nano-degree)，也登出了許多找到工作的人使用後的心得，想要說服大家購買套裝課程。當初可以免費觀看的課程，現在想要找到免費觀看的連結都有些困難（有興趣尋找免費連結的可以參考這篇知乎：<a href="https://www.zhihu.com/question/36040072" target="_blank" rel="external">Coursera 是开始全面收费了么？</a>)</p>
 <h1 id="轉移新平台後-舊平台某些課程即將消失"><a href="#轉移新平台後-舊平台某些課程即將消失" class="headerlink" title="轉移新平台後 舊平台某些課程即將消失"></a>轉移新平台後 舊平台某些課程即將消失</h1><p>目前有報導指出，Coursera將於6/30捨棄舊平台並整合大部分的課程到新平台。Coursera官方發表說明維護兩個平台需要顯著的資源，為了進一步改善新平台的體驗，Coursera決定停止舊平台的服務。但有人就發現了其實滿多熱門的課程都不會繼續在新平台上供應，因此開始去尋找可以快速下載這些課程的方法。我自己也參考了幾個資源，試過了幾個方法，以下簡單整理一下使用的心得：</p>
 <h2 id="如何快速尋找會消失的課程"><a href="#如何快速尋找會消失的課程" class="headerlink" title="如何快速尋找會消失的課程"></a>如何快速尋找會消失的課程</h2><p><a href="https://www.class-central.com/collection/coursera-old-stack-all" target="_blank" rel="external">Class Central</a>整合了超過450堂課程將跟隨著舊平台一起消失的列表。可以先從裡面看到已經分類好的課程，以及大家對課程的評價，來決定要下載哪些課程。</p>
-<h2 id="如何下載課程的所有資料？"><a href="#如何下載課程的所有資料？" class="headerlink" title="如何下載課程的所有資料？"></a>如何下載課程的所有資料？</h2><h3 id="方法一：直接暴力下載"><a href="#方法一：直接暴力下載" class="headerlink" title="方法一：直接暴力下載"></a>方法一：直接暴力下載</h3><p>如下圖所示，最直接的方法是進入課程，點擊課程的Lecture或是Video Lecture頁面，可以在右邊發現講義、影片以及字幕下載的連結：<br><img src="/images/coursera_1.png" alt="" title="學習資料的下載連結"><br>但這樣的方法太慢了，於是有人開發了Plug-in還有一些軟體包來幫助批次下載。</p>
+<h2 id="如何下載課程的所有資料？-新平台上的課程也可下載"><a href="#如何下載課程的所有資料？-新平台上的課程也可下載" class="headerlink" title="如何下載課程的所有資料？(新平台上的課程也可下載)"></a>如何下載課程的所有資料？(新平台上的課程也可下載)</h2><h3 id="方法一：直接暴力下載"><a href="#方法一：直接暴力下載" class="headerlink" title="方法一：直接暴力下載"></a>方法一：直接暴力下載</h3><p>如下圖所示，最直接的方法是進入課程，點擊課程的Lecture或是Video Lecture頁面，可以在右邊發現講義、影片以及字幕下載的連結：<br><img src="/images/coursera_1.png" alt="" title="學習資料的下載連結"><br>但這樣的方法太慢了，於是有人開發了Plug-in還有一些軟體包來幫助批次下載。</p>
 <h3 id="方法二：安裝Google-Chrome-Plug-in-“Course-Materials-Downloader”-限已註冊課程"><a href="#方法二：安裝Google-Chrome-Plug-in-“Course-Materials-Downloader”-限已註冊課程" class="headerlink" title="方法二：安裝Google Chrome Plug-in “Course Materials Downloader” (限已註冊課程)"></a>方法二：安裝Google Chrome Plug-in “Course Materials Downloader” (限已註冊課程)</h3><ol>
 <li><p>下載Plug-in <a href="https://chrome.google.com/webstore/detail/coursera-materials-downlo/ijkboagofaehocnjacacdhdcbbcpilih" target="_blank" rel="external">Course Materials Downloader</a>。</p>
 </li>
@@ -26,9 +26,9 @@
 <ol>
 <li><p>(Recommended for all Operating Systems) 用pip下載package<br><code>pip install coursera-dl</code></p>
 </li>
-<li><p>在課程頁面網址，我們可以找到課程的id。如：<a href="https://class.coursera.org/mmds-001/的id就是&quot;mmds-001&quot;。若是覺得要點進去課程頁面看網址很麻煩，在[Class" target="_blank" rel="external">https://class.coursera.org/mmds-001/的id就是&quot;mmds-001&quot;。若是覺得要點進去課程頁面看網址很麻煩，在[Class</a> Central](<a href="https://www.class-central.com/collection/coursera-old-stack-all)裡的課程介紹，若是已經要停止供應的課程，" target="_blank" rel="external">https://www.class-central.com/collection/coursera-old-stack-all)裡的課程介紹，若是已經要停止供應的課程，</a> 一開始會有個紅色框框，警告此課程在6/30之後就無法使用，下面可以找到課程的id：<br><img src="/images/coursera_3.png" alt=""><br>有些id可能是無法被下載的，通常選比較前面一點的比較不會失敗。</p>
+<li><p>在課程頁面網址，我們可以找到課程的id。如：/class.coursera.org/mmds-001/的id就是”mmds-001”。若是覺得要點進去課程頁面看網址很麻煩，在<a href="https://www.class-central.com/collection/coursera-old-stack-all" target="_blank" rel="external">Class Central</a>裡的課程介紹，若是已經要停止供應的課程， 一開始會有個紅色框框，警告此課程在6/30之後就無法使用，下面可以找到課程的id：<br><img src="/images/coursera_3.png" alt=""><br>有些id可能是無法被下載的，通常選比較前面一點的比較不會失敗。</p>
 </li>
-<li><p>有了\<course_id\>之後，輸入下面指令就會開始下載了。<br><code>coursera-dl -u &lt;Coursera帳號/信箱&gt; -p &lt;密碼&gt; &lt;course_id_1&gt; &lt;course_id_2&gt; ... &lt;course_id_n&gt;</code></course_id\></p>
+<li><p>有了id之後，輸入下面指令就會開始下載了。<br><code>coursera-dl -u &lt;Coursera帳號/信箱&gt; -p &lt;密碼&gt; &lt;course_id_1&gt; &lt;course_id_2&gt; ... &lt;course_id_n&gt;</code></p>
 </li>
 </ol>
 <p>Reference:</p>
