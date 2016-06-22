@@ -28,7 +28,7 @@
 </li>
 <li><p>在課程頁面網址，我們可以找到課程的id。如：<a href="https://class.coursera.org/mmds-001/的id就是&quot;mmds-001&quot;。若是覺得要點進去課程頁面看網址很麻煩，在[Class" target="_blank" rel="external">https://class.coursera.org/mmds-001/的id就是&quot;mmds-001&quot;。若是覺得要點進去課程頁面看網址很麻煩，在[Class</a> Central](<a href="https://www.class-central.com/collection/coursera-old-stack-all)裡的課程介紹，若是已經要停止供應的課程，" target="_blank" rel="external">https://www.class-central.com/collection/coursera-old-stack-all)裡的課程介紹，若是已經要停止供應的課程，</a> 一開始會有個紅色框框，警告此課程在6/30之後就無法使用，下面可以找到課程的id：<br><img src="/images/coursera_3.png" alt=""><br>有些id可能是無法被下載的，通常選比較前面一點的比較不會失敗。</p>
 </li>
-<li><p>有了<course_id>之後，輸入下面指令就會開始下載了。<br><code>coursera-dl -u &lt;Coursera帳號/信箱&gt; -p &lt;密碼&gt; &lt;course_id_1&gt; &lt;course_id_2&gt; ... &lt;course_id_n&gt;</code></course_id></p>
+<li><p>有了\<course_id\>之後，輸入下面指令就會開始下載了。<br><code>coursera-dl -u &lt;Coursera帳號/信箱&gt; -p &lt;密碼&gt; &lt;course_id_1&gt; &lt;course_id_2&gt; ... &lt;course_id_n&gt;</code></course_id\></p>
 </li>
 </ol>
 <p>Reference:</p>
