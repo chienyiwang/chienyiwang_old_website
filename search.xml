@@ -4,6 +4,30 @@
   
     
     <entry>
+      <title><![CDATA[Honda Research Intern Week 5]]></title>
+      <url>https://chienyiwang.github.io/2016/06/24/Honda-Research-Intern-Week-5/</url>
+      <content type="html"><![CDATA[<p>(正在San Jose Airport等待被Delay的班機…)</p>
+<h1 id="Work"><a href="#Work" class="headerlink" title="Work"></a>Work</h1><ul>
+<li>這禮拜要把一些data實際處理在map上看看，因此搞了一下GPS的data，還有一些轉換的東西</li>
+<li>看了有關Point Cloud Registration的Paper (2016 ICRA)，做Robotics的人不像CV界常常會Release code到網路上，這個作者還滿有心的在github上放了一份滿完整的code</li>
+<li>禮拜五的公司meeting，難得有人上台報告去參加 ICRA 跟 RSS(Robotics: Science and Systems) 的經驗，好像又回到了實驗室參加group meeting的感覺。其實公司的人報告的方式也是跟學校滿像的XD</li>
+<li>目前在做的事情，還是比較像是Engineer，沒有太多自己深入改的演算法，但是這樣邊碰一些環境邊學東西也滿有趣的</li>
+<li>下禮拜mentor要去CVPR，組長也要去日本開Honda的會，公司一堆人都會暫時不在，加上7/2-7/10超Long Holiday，應該是可以過一段不錯的清閒日子XD</li>
+<li>不過還是想要在放假前趕快把基本的東西都生出來，之後就比較沒有壓力</li>
+<li>抽了一點空，弄了學校畢業跟OPT的東西，總算在禮拜五順利寄出去了，希望能夠快點收到EAD card，就可以再規劃一下回個台灣…</li>
+</ul>
+<h1 id="After-Work"><a href="#After-Work" class="headerlink" title="After Work"></a>After Work</h1><ul>
+<li>這個禮拜想要好好的來一發減重計畫，去超市買了一包雞胸肉跟花椰菜，前幾天晚上都吃得還算滿清淡，但中午還是都跟大家出去吃，應該暫時不會很有效XD</li>
+<li>禮拜一去游了泳，但後面幾天因為公司的人突然這幾天下班都在打球，就會跟他們打到滿晚的。不過公司的人都是打比賽居多，比較沒有在練球，可能消耗的熱量也不太夠XD</li>
+<li>為了弄學校的各種事情，也是花了不少時間，感謝黃柏翰在USC幫我奔波QQ</li>
+<li>為了晚上找到可以影印護照格式的照片的地方，上網查了好久，最後還是去CVS花了 12US 印了兩張照片… 重點是他其實印4x6的只要一塊左右，印護照照片的選項並沒有用比較好的紙，超囧的</li>
+<li>週末去Seattle找蔡亮群、張乃文還有李青樺玩玩，回來有空再整理一篇Seattle遊記吧XD</li>
+<li>剛順利的開車到了Santa Clara Transit停免費的車位，搭乘VTA的機場免費接駁車到了機場，省去了一些小錢跟麻煩</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[如何快速下載Coursera課程資料？]]></title>
       <url>https://chienyiwang.github.io/2016/06/21/how-to-download-coursera/</url>
       <content type="html"><![CDATA[<h1 id="MOOC-越來越盈利化"><a href="#MOOC-越來越盈利化" class="headerlink" title="MOOC 越來越盈利化"></a>MOOC 越來越盈利化</h1><p>Coursera也算是線上教育MOOC(Massive Open Online Course)的始祖了，2012年一推出的時候，課程其實沒有太多選擇。不過幾個Computer Science的課程都是來自美國有名的大學，內容也做得還滿好的，想當初開始對於一些CS的課程產生興趣，常常會去Coursera或是Udacity找好玩的課程來註冊。這樣的課程通常一集影片大概只有5-10分鐘，設計方式還滿不錯的，能夠在短暫的時間內完成一些小作業並得到些成就感。但是大量註冊兩三個以上的課程之後，其實根本無法與學校的課程一起兼顧，在沒有強大誘因以及自制力的情況下，往往是先捨棄了線上課程，想說之後再回來看影片就好了，想當然很少有真的再回來看…很高興看到台大很多課程也都陸續放在上面，包括葉丙成老師的機率課，還有林軒田老師的機器學習。很感謝林軒田老師對於線上課程的用心，讓我能夠在替代役的時期，順利修到了大學後悔沒有修到的課程。</p>
