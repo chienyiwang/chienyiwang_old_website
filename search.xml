@@ -4,6 +4,46 @@
   
     
     <entry>
+      <title><![CDATA[Honda Research Intern Week 6-8]]></title>
+      <url>https://chienyiwang.github.io/2016/07/16/Honda-Research-Intern-Week-6-8/</url>
+      <content type="html"><![CDATA[<p>因為女友來灣區兩個禮拜，欠了有點久了Intern週記沒有更新….<br>Week 7碰到國慶日連假加上Honda公司整週全體大放假，所以出去玩了整整九天…</p>
+<h1 id="Work"><a href="#Work" class="headerlink" title="Work"></a>Work</h1><ul>
+<li>Week 6整週mentor還有組長都不在，得到了一些清閒的日子，不過其實都還滿認真的啦 XD</li>
+<li>拿到了公司之前在Mountain View採集的data，比之前試用的data完整了不少</li>
+<li>把整個system的流程在新的data上跑了一遍，又處理了許多繁雜的瑣事</li>
+<li>拿了幾個open source的套件來試著加上東西用用看，可惜效果不是很好</li>
+<li>禮拜四下午跟正在 Vegas參加CVPR的mentor小報告一下進度</li>
+<li>禮拜五因為在公司的人很少，公司中午訂了pizza讓大家吃，順便social一番（在場的大概只有不到20人)</li>
+<li>Week 8發現其實收集到的data，由於硬體上設計的瑕疵，LiDAR跟Image的時間軸並不是同步的，因此又花了許多時間跑程序</li>
+<li>跑程序的空檔，就會偶爾看看一些paper，或是一些視頻的課程</li>
+<li>mentor語重心長了講了一些關於他去CVPR的見聞，感覺得出他很希望Honda也能在Conference中佔有一席之地。其實我平常在找一些資料也發現在無人車發展這一塊，Honda相較於Toyota還有一些車廠，是投入比較沒那麼多的，可能也跟最近幾年才轉型規模不大有關係。聊了許久還是扯到了有關return offer的事情，感覺得出來mentor很希望我們能夠留下來，一起打拼讓這邊變得更好。其實能夠有留下來繼續做的機會是滿不錯的，但是總感覺有些事情還是應該要在決定之前問清楚，並且想清楚。其實自己也是滿懶得再去刷一些題，做一些可能不是那麼喜歡的engineering工作。</li>
+</ul>
+<h1 id="Vacation"><a href="#Vacation" class="headerlink" title="Vacation"></a>Vacation</h1><ul>
+<li>7/2: Sunnyvale - Napa Valley 酒莊參觀行程 - Klamath Fall 牛排晚餐+住宿</li>
+<li>7/3: Crater Lake 玩一整天，走了三四個trail，晚上看星星</li>
+<li>7/4: Klamath Fall 午餐 - Fremont 好年冬晚餐</li>
+<li>7/5: Sunnyvale - Yosemite Valley - Yosemite Lower Fall Trail - Mirror Lake - Fish Camp 住宿</li>
+<li>7/6: Glacier Point - Panorama Trail - Yosemite Valley 午餐 - Mist Trail (Vernal Fall) - Fish Camp 住宿</li>
+<li>7/7: Fish Camp - Los Angeles - Wako + Coco 晚餐</li>
+<li>7/8: Disneyland</li>
+<li>7/9: Tatsu + Coco 午餐 - (Santa Barbara) - Solvang 逛街+晚餐 - Solvang 住宿</li>
+<li>7/10: Solvang - Carmel Village - Sunnyvale</li>
+</ul>
+<p>前三天跟USC團一起去Crater Lake National Park，是全美國最深的湖泊，由火山爆發所形成的，因為深度的原因，使得光反射出來呈現漂亮的寶藍色。在當場看到真的超美，幾個Trail也都是圍繞著這個湖，欣賞不同角度的美景。可惜其他地形或是動物的部分比較少，個人覺得如果沒有去走更多Trail或是坐船遊湖，一天應該綽綽有餘。從七月一號之後的遊湖行程都可以事先上網訂票，希望下次還有機會再去坐船。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Seattle-Trip]]></title>
+      <url>https://chienyiwang.github.io/2016/06/26/Seattle-Trip/</url>
+      <content type="html"><![CDATA[<p>Short Weekend Trip in Seattle<br>People: 亮群 青樺 乃哥</p>
+<p>欠太多東西沒寫…</p>
+<p>(待補完)<br>Boeing Aircraft Museum<br>Haiku Seafood Restaurant<br>Aiki Beach<br>Starbucks Reserve<br>Gas Works Park<br>Columbia Tower</p>
+<p>Jade Garden<br>Pride Parade in Seattle<br>Pike Place Market<br>First Starbucks</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Honda Research Intern Week 5]]></title>
       <url>https://chienyiwang.github.io/2016/06/24/Honda-Research-Intern-Week-5/</url>
       <content type="html"><![CDATA[<p>(正在San Jose Airport等待被Delay的班機…)</p>
