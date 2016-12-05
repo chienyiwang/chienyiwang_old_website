@@ -98,7 +98,7 @@
 <meta property="og:image" content="https://chienyiwang.github.io/images/westworld.jpg">
 <meta property="og:image" content="https://chienyiwang.github.io/images/wemarriedasajob.jpg">
 <meta property="og:image" content="https://chienyiwang.github.io/images/mammoth.jpg">
-<meta property="og:updated_time" content="2016-12-05T07:39:14.000Z">
+<meta property="og:updated_time" content="2016-12-05T07:45:46.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Honda Research Week 3-6">
 <meta name="twitter:description" content="Work
@@ -405,7 +405,7 @@
       
         <h1 id="Work"><a href="#Work" class="headerlink" title="Work"></a>Work</h1><ul>
 <li>前兩個禮拜基本上是在搞一套Real-time Object Detection的演算法，拿最新的Single Shot Detection(ECCV 2016)放在github的code來做training。這個方法主要是改善了前輩Faster R-CNN的two stage方法，希望用窮舉bounding box以及結合Multi-scale的資訊，來完成一套end-to-end的訓練系統，也大大的增加了detection speed。</li>
-<li>其實在之前ML或是Deep Learning相關的經驗，也只有在USC拿一些已經有的tool來train些很簡單的模型，或是寫一些課的作業碰到些簡單的模型，有了基本的概念。不過Deep Learning也可以說是一個很深奧的engineering學科，一個打滾許久的engineer即使沒有研究背景，應該也是在業界非常搶手的。畢竟現在還沒有太多的理論解釋，data augmentation、hyper-parameter tuning、initialization and regularization每個module都是用大家的經驗堆出來的。這個SSD的演算法，算是在一開始的雛形階段，許多訓練好的model也都是作者調好各種參數，也分了好多個learning stage，才真正得到state of the art結果。光是前端訓練的script就有許多參數可以調，對於不同的dataset也要有不同的處理，才能真正訓練出一個好model。</li>
+<li>其實在之前ML或是Deep Learning相關的經驗，也只有在USC拿一些已經有的tool來train些很簡單的模型，或是寫一些課的作業碰到些簡單的模型，有了基本的概念。不過Deep Learning也可以說是一個很深奧的engineering學科，一個打滾許久的engineer即使沒有研究背景，應該也是在業界非常搶手的。畢竟現在還沒有太多的理論解釋，data augmentation、hyper-parameter tuning、initialization and regularization每個module都是用大家的經驗堆出來的。這個SSD的演算法，算是在一開始的雛形階段，許多訓練好的model也都是作者調好各種參數，也分了好多個learning stage，才真正得到state of the art結果。光是前端訓練的script就有許多參數可以調，對於不同的dataset也要有不同的處理，才能真正訓練出一個好model。<a id="more"></a></li>
 <li>即使建立在巨人的肩膀上，拿了ImageNet Pretrained Model，還是無法有效的train在我們自己的dataset上。況且用了兩個GPU還是要train個一兩天才能看到一些結果，真的是滿麻煩的。最後用了作者提供的一個train在COCO dataset的model，finetune了許久才有了不錯的結果。結論就是 <strong>找到好的巨人肩膀(pretrained model)可以省去很多麻煩</strong></li>
 <li>高效的object detection的演算法可以應用在很多不同的領域，也可以算是Computer Vision研究的重要基石，業界也都搶著想要來嘗試借來用，因此可以看到作者的<a href="https://github.com/weiliu89/caffe/tree/ssd" target="_blank" rel="external">github page</a>產生的issue數量真的很驚人。大概follow了大家的issue一個多禮拜，自己也提了人生第一個github issue問題（雖然最後作者並沒有直接回覆QQ)，但自己在這段嘗試期間多少也累積了些經驗，在上面幫忙回答了一些問題，還滿有成就感的。</li>
 <li>跟專利的律師通了一次電話，主要討論暑假所做的work要怎麼寫成比較詳細的proposal。由於我們還在繼續改進中，想要在年底的demo呈現一個比較完整的架構，因此就先擱置想說等demo結束之後再來寫。</li>
@@ -419,8 +419,9 @@
 <h2 id="PTT新文章訂閱通知"><a href="#PTT新文章訂閱通知" class="headerlink" title="PTT新文章訂閱通知"></a>PTT新文章訂閱通知</h2><p>本來想要趁回台灣的時間，帶琢懿一起去看五月天的演唱會，畢竟五月天最近的動態好像有點快要退休的感覺好可怕啊。感覺主要的票源還是都在PTT的drama-ticket版，但是又不想要一直上版去關注誰又po了賣票文（通常一po出來大概五分鐘內一定會被搶），因此好奇上網google了有沒有相關的通知程式，於是發現了這篇文章：<a href="http://yulun.me/2015/ifttt-ptt-rss-alarm-event/" target="_blank" rel="external">PTT 新文章、關鍵字 手機通知服務</a> 作者主要用了node.js寫了一個程式，去抓PTT的網頁版，並利用後端去parse新文章的資訊，架設了一個可以發送RSS的應用服務。對node.js其實不是很了解，照作者文章寫的兜了一下，只能在自己的筆電架設server。因為後面要用手機的app IFTTT訂閱並發送通知，一定要讓server能夠在網路上運作連到外網才有用。目前搞了兩種方法還算堪用：</p>
 <ul>
 <li><a href="https://ngrok.com" target="_blank" rel="external">ngrok</a>:可以產生一個網址，讓外網的人access筆電上的local server，但是需要一直開著筆電或是電腦感覺還是有點不實際。</li>
-<li><a href="https://www.heroku.com/" target="_blank" rel="external">heroku</a>:是個像AWS或google app engine之類的平台，可以快速用php或是node.js之類的語言寫一個後端的應用（我理解上是這樣…）需要先照著說明，在terminal裝上heroku kit，就可以幫忙push寫好的code到特定的application folder底下。<br>能夠快速部署一些簡單的前後端應用，實現一些idea也是工程師滿需要的能力啊，希望可以找些零碎時間把javascript多學一些。</li>
+<li><a href="https://www.heroku.com/" target="_blank" rel="external">heroku</a>:是個像AWS或google app engine之類的平台，可以快速用php或是node.js之類的語言寫一個後端的應用（我理解上是這樣…）需要先照著說明，在terminal裝上heroku kit，就可以幫忙push寫好的code到特定的application folder底下。</li>
 </ul>
+<p>能夠快速部署一些簡單的前後端應用，實現一些idea也是工程師滿需要的能力啊，希望可以找些零碎時間把javascript多學一些。</p>
 <h2 id="感恩節Mammoth滑雪初體驗"><a href="#感恩節Mammoth滑雪初體驗" class="headerlink" title="感恩節Mammoth滑雪初體驗"></a>感恩節Mammoth滑雪初體驗</h2><p><img src="/images/mammoth.jpg" alt=""><br>第一次到下雪的地方，也是第一次滑雪。Mammoth真的是個超級大的雪場，雪景很美但是零下十度真的超冷… 雖然大家都說ski比較容易上手，但我還是摔倒了超多次，抓不太到要領，因此只滑了一天第二天就放棄了＠＠ 加上還要每次克服坐纜車的恐懼真的太麻煩，搞不好是最後一次滑雪了XD 不過這趟本來比較期待的就是再度跟南加的朋友聚首，一起在小木屋煮火鍋玩桌遊真的很溫馨。跟一群還在讀PhD作相同領域的朋友聊聊天，好像也能更加砥礪自己，應該要在公司更努力了。</p>
 <h2 id="搬新家"><a href="#搬新家" class="headerlink" title="搬新家"></a>搬新家</h2><p>因為種種因素(住第二個禮拜就遇到小偷、還有需要跟房東一起住等等)，明年一月中要搬到另一個新家2b/2b apartment。住久了雅房跟別人共用廁所也是覺得有點累，自己也滿想搬去套房的。十一月中就一直在找附近的公寓，研究各個公寓各種考慮優缺點，欣賞公寓美麗的照片真的滿容易上癮的，晚上不小心就會看到半夜兩三點。幸好一個週末去看了一圈就搞定了，找到一間價錢地點設備都很滿意的（跟Yi-Ting學長住同一個公寓）由於新家什麼都沒有，感恩節就滿衝動的買了許多新家會用到的各種家具（吸塵器、壓力鍋之類的），新的apartment還有24小時健身房跟游泳池，就可以省去健身房的錢。可以自己主導各種家裡的擺設跟配置，雖然可能麻煩了些，但就也可以邊想像之後有了家庭之後的樣子，還滿開心的。</p>
 
