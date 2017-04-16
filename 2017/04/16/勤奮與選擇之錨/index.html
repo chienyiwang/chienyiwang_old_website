@@ -1,0 +1,936 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-tw">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="邏輯思維," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+  <meta property="fb:admins" content="chienyi.wang2" />
+  <meta property="fb:app_id" content="603377209822660" />
+
+
+
+<meta name="description" content="遠東軼事：一些感悟這次看了在Facebook AI Lab工作的田淵棟，最近在自己的知乎專欄上發表了一篇文章“一些感悟”，加上這幾天聽的邏輯思維，有了些心得想要記錄下來。田淵棟在ML或是CV界也是鼎鼎大名的人物了（能夠在頂尖的Facebook實驗室工作的都是牛人），因為平時研究需要關係，追蹤了一些跟CV有關的專欄。田淵棟文筆很好，雖然這篇篇幅不長，但字字句句中都有可以發人深省的新觀點。
+
+要跳出舒">
+<meta property="og:type" content="article">
+<meta property="og:title" content="勤奮與選擇之錨">
+<meta property="og:url" content="https://chienyiwang.github.io/2017/04/16/閱讀小記/index.html">
+<meta property="og:site_name" content="Chien-Yi's Blog">
+<meta property="og:description" content="遠東軼事：一些感悟這次看了在Facebook AI Lab工作的田淵棟，最近在自己的知乎專欄上發表了一篇文章“一些感悟”，加上這幾天聽的邏輯思維，有了些心得想要記錄下來。田淵棟在ML或是CV界也是鼎鼎大名的人物了（能夠在頂尖的Facebook實驗室工作的都是牛人），因為平時研究需要關係，追蹤了一些跟CV有關的專欄。田淵棟文筆很好，雖然這篇篇幅不長，但字字句句中都有可以發人深省的新觀點。
+
+要跳出舒">
+<meta property="og:updated_time" content="2017-04-16T21:20:15.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="勤奮與選擇之錨">
+<meta name="twitter:description" content="遠東軼事：一些感悟這次看了在Facebook AI Lab工作的田淵棟，最近在自己的知乎專欄上發表了一篇文章“一些感悟”，加上這幾天聽的邏輯思維，有了些心得想要記錄下來。田淵棟在ML或是CV界也是鼎鼎大名的人物了（能夠在頂尖的Facebook實驗室工作的都是牛人），因為平時研究需要關係，追蹤了一些跟CV有關的專欄。田淵棟文筆很好，雖然這篇篇幅不長，但字字句句中都有可以發人深省的新觀點。
+
+要跳出舒">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: "",
+      labels: ""
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://chienyiwang.github.io/2017/04/16/閱讀小記/"/>
+
+
+
+
+
+  <title> 勤奮與選擇之錨 | Chien-Yi's Blog </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-tw">
+
+  
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '603377209822660',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/zh_tw/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-78974116-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Chien-Yi's Blog</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">Be self-motivated and energetic!</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首頁
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分類
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            關於
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            歸檔
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            標籤
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            檢索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                勤奮與選擇之錨
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">發表於</span>
+            <time itemprop="dateCreated" datetime="2017-04-16T14:13:04-07:00" content="2017-04-16">
+              2017-04-16
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Note/" itemprop="url" rel="index">
+                    <span itemprop="name">Note</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/04/16/閱讀小記/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/04/16/閱讀小記/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+          
+          <span>&nbsp; | &nbsp;
+          <span id="busuanzi_value_page_pv" ></span>次瀏覽
+          </span>    
+          
+		
+          
+            &nbsp; | &nbsp;
+            <div class="fb-like" data-layout="button_count" data-share="true"></div>
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="遠東軼事：一些感悟"><a href="#遠東軼事：一些感悟" class="headerlink" title="遠東軼事：一些感悟"></a><a href="https://zhuanlan.zhihu.com/p/26178137?group_id=832913642608533504" target="_blank" rel="external">遠東軼事：一些感悟</a></h2><p>這次看了在Facebook AI Lab工作的田淵棟，最近在自己的知乎專欄上發表了一篇文章“一些感悟”，加上這幾天聽的邏輯思維，有了些心得想要記錄下來。田淵棟在ML或是CV界也是鼎鼎大名的人物了（能夠在頂尖的Facebook實驗室工作的都是牛人），因為平時研究需要關係，追蹤了一些跟CV有關的專欄。田淵棟文筆很好，雖然這篇篇幅不長，但字字句句中都有可以發人深省的新觀點。</p>
+<blockquote>
+<p>要跳出舒適區。舉個例子，勤奮本來就是舒適區的一種。「勤能補拙」這個詞是很好的，首先它說明現在處於「拙」的狀態中，需要繼續努力；其次，勤只能用來「補」拙，而不能讓拙變巧，不是根本的解決方案。勤奮是一種惶惶然的狀態，而不是一種滿足的狀態，勤奮意味著自己不如別人，於是得要花更多的時間去補救，別人幹八小時就夠了，自己得花十幾個小時才能趕上。這種狀態是不長久的，碰到出些小毛小病，或者家裡有事，那就補不過來，就要掉隊了。</p>
+</blockquote>
+<p>勤奮是舒適區這種說法是第一次聽到，這段話讓我反覆思索了很多次。在我原本的想像中，『勤奮』應該是要一直進行下去的，因為總是人外有人、天外有天；但是這邊所說的應該是另一種心態，比較可以想像的例子應該是：平時我們總是會滿足於一些小確幸，也覺得不用事事都跟人比較，自己有每天在進步就可以了。但是常常現實的情況是，想要跟厲害的人達到一樣的水平或是效率，這樣的勤奮程度是不夠的。</p>
+<blockquote>
+<p>勤奮的用處是試錯，是讓自己在落後時可以多花點時間找到正確的方法，以達到和別人相當甚至更高的效率，從而提高自己的能力。別人是科班出身，我半路殺進來，當然要多花時間去補；別人學習效率高，我的效率不高，於是得要多花點時間去探索更好的方法。勤奮是暫態，它最終目的是找到更好的方法及時補上以離開這個狀態，而不是以一直維持這個狀態為榮。</p>
+</blockquote>
+<p>這裡點出了，『勤奮』的目標是要找到對的『方法』或是『路徑』：在一個領域打滾沒有很久，或是一個公司的新人期，視野還沒被打開，無法看到整個環境的全貌，因此要花更多的『勤奮努力』，弄清楚整個大環境的現實，並及早確定自己的中長期目標，找到自己的選擇之錨（有關選擇之錨的解釋可以參考第二篇心得）。有了選擇之錨之後，就能不被每天的小雜事所淹沒，也不被一些突如其來的意外事件所影響，因為自己清楚地知道最終目標在哪裡，就能在每一個選擇上更加果斷，做事情也更有效率。</p>
+<blockquote>
+<p>重要的要抓牢，不重要的要放手。有人讀過很多文章看過很多書，勤勉自律好學愛問樣樣不缺，但門門都不精；有人事事親為，務求完美，大事上往往把握不了。短木板理論是有問題的，大部分崗位不需要全才，要的是一專多能，要的是某方向很牛非常牛，相同程度的可以掰指頭數過來，其它的過線就行，甚至不達標也無人關心。如果你不是專家，高薪聘請沒有意義；如果你是專家，求全責備沒有意義。</p>
+</blockquote>
+<p>人每天只有24小時，儘早找到中長期目標，就能知道哪些東西是要緊緊抓牢，自然而然地就向這個方向發展下去，就能讓人真正變成一個專家。</p>
+<h2 id="邏輯思維第五季：選擇之錨"><a href="#邏輯思維第五季：選擇之錨" class="headerlink" title="邏輯思維第五季：選擇之錨"></a>邏輯思維第五季：<a href="http://www.luojiji.com/thread-6077-1-1.html" target="_blank" rel="external">選擇之錨</a></h2><blockquote>
+<p>「信仰讓很多選擇變得簡單。」— 德國總理默克爾</p>
+</blockquote>
+<p>羅胖還舉了另一個例子，說你可以想像你的一個同事：如果他能力很強，但也不顯得特別聰明；跟誰都不是很親近，但是深得信任；不見得事事都做對，但是每一個選擇在道德上和原理上都站得住腳。這樣的人，在每一個具體的事上，可能都不會佔大便宜，但是只要把時間放長遠看，這樣的人，總會有很大概率贏。默克爾的那句話中，講『信仰』有點太抽象了，可以把它換成『價值觀』、『使命』、或是『<a href="http://www.luojiji.com/thread-5990-1-1.html" target="_blank" rel="external">第一性原理</a>』。</p>
+<p>在我們身處的環境中，選擇實在是越來越多，考慮時間成本之下，往往會面臨判斷哪一個選擇CP值最高的困難處境。我想做選擇應該是難免的，價值觀也不是一出生馬上就知道的，要練習每次做決定時思考深入一些，想一想這次決定是按照什麼原則來判斷，漸漸的就會有屬於自己的一套行事的準則。我覺得大多數的研究人員或是博士生，都會具有比別人更強大的『信仰』或是解決根本問題的『使命』，即使不是每一步都能有progress，但是長久來看就能持續地邁向目標。（寫到這就突然想到一個比喻，ML在training的model，雖然每一個update不是都能讓loss降低，但長久平均來看performance是會越來越好的 XD）</p>
+<p>我覺得有使命感的人（像是我同事學長），就會不自覺散發出自信，也能讓每天更有規律並有計畫的進行著，進步應該是很自然的。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/邏輯思維/" rel="tag">#邏輯思維</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/12/31/Recap-of-2016/" rel="next" title="Recap of 2016">
+                <i class="fa fa-chevron-left"></i> Recap of 2016
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            本站概覽
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.jpg"
+               alt="Chien-Yi Wang" />
+          <p class="site-author-name" itemprop="name">Chien-Yi Wang</p>
+          <p class="site-description motion-element" itemprop="description">About my life, my work ... and my murmur</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">17</span>
+              <span class="site-state-item-name">文章</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">分類</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-name">標籤</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/chienyiwang" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.facebook.com/chienyi.wang2" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-facebook-square"></i>
+                  
+                  Facebook
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.linkedin.com/in/chienyiwang" target="_blank" title="Linkedin">
+                  
+                    <i class="fa fa-fw fa-linkedin-square"></i>
+                  
+                  Linkedin
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-block">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://pojenlai.wordpress.com/" title="Po-Jen Lai" target="_blank">Po-Jen Lai</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#遠東軼事：一些感悟"><span class="nav-number">1.</span> <span class="nav-text">遠東軼事：一些感悟</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#邏輯思維第五季：選擇之錨"><span class="nav-number">2.</span> <span class="nav-text">邏輯思維第五季：選擇之錨</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2016 - 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Chien-Yi Wang</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 強力驅動
+</div>
+
+
+<!--
+<div class="theme-info">
+  主題 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div> 
+-->
+
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  &nbsp 本站總訪客量 <span id="busuanzi_value_site_pv"></span> &nbsp&nbsp&nbsp
+  您是第<span id="busuanzi_value_site_uv"></span>個訪客
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'chienyiwang';
+      var disqus_identifier = '2017/04/16/閱讀小記/';
+
+      var disqus_title = "勤奮與選擇之錨";
+
+
+      function run_disqus_script(disqus_script) {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+
+      
+        var disqus_config = function () {
+            this.page.url = disqus_url;
+            this.page.identifier = disqus_identifier;
+            this.page.title = disqus_title;
+        };
+        run_disqus_script('embed.js');
+      
+
+    </script>
+  
+
+
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+</body>
+</html>
