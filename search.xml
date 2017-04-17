@@ -6,7 +6,8 @@
     <entry>
       <title><![CDATA[Deep MANTA: A Coarse-to-fine Many-Task Network for joint 2D and 3D vehicle analysis from monocular image]]></title>
       <url>https://chienyiwang.github.io/2017/04/17/Deep-MANTA-A-Coarse-to-fine-Many-Task-Network-for-joint-2D-and-3D-vehicle-analysis-from-monocular-image/</url>
-      <content type="html"><![CDATA[<p><img src="/images/螢幕截圖 2017-03-23 01.51.21.png" alt="Alt text"><br><img src="/images/螢幕截圖 2017-04-17 00.12.34.png" alt="Alt text"></p>
+      <content type="html"><![CDATA[<p><a href="https://arxiv.org/abs/1703.07570" target="_blank" rel="external">https://arxiv.org/abs/1703.07570</a></p>
+<p><img src="/images/螢幕截圖 2017-03-23 01.51.21.png" alt="Alt text"><br><img src="/images/螢幕截圖 2017-04-17 00.12.34.png" alt="Alt text"></p>
 <h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h3><ul>
 <li>By a single image input, the proposed algorithm could generate multi-task prediction results simultaneously</li>
 <li>Multi-task: vehicle detection, part localization, visibility characterization and 3D dimension estimation</li>
