@@ -22,6 +22,7 @@
 <li>Extract features from earlier conv stage: high resolution for small objects</li>
 <li>Multi-task loss design is simple (weight for each loss is equal)</li>
 </ul>
+<p><a href="https://zhuanlan.zhihu.com/p/25996617" target="_blank" rel="external">https://zhuanlan.zhihu.com/p/25996617</a></p>
 ]]></content>
     </entry>
     
