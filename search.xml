@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title><![CDATA[Deep MANTA: A Coarse-to-fine Many-Task Network for joint 2D and 3D vehicle analysis from monocular image]]></title>
+      <url>https://chienyiwang.github.io/2017/04/17/Deep-MANTA-A-Coarse-to-fine-Many-Task-Network-for-joint-2D-and-3D-vehicle-analysis-from-monocular-image/</url>
+      <content type="html"><![CDATA[<p><img src="/images/螢幕截圖 2017-03-23 01.51.21.png" alt="Alt text"><br><img src="/images/螢幕截圖 2017-04-17 00.12.34.png" alt="Alt text"></p>
+<h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h3><ul>
+<li>By a single image input, the proposed algorithm could generate multi-task prediction results simultaneously</li>
+<li>Multi-task: vehicle detection, part localization, visibility characterization and 3D dimension estimation</li>
+</ul>
+<h3 id="Contribution"><a href="#Contribution" class="headerlink" title="Contribution"></a>Contribution</h3><ul>
+<li>Achieve state-of-the-art vehicle detection result (96.4/90.1/80.79 mAP) on <strong>KITTI dataset</strong></li>
+<li>Utilize CAD model for training data generation</li>
+<li>CAD model for 2D/3D matching and 3D space localization</li>
+</ul>
+<h3 id="Comments"><a href="#Comments" class="headerlink" title="Comments"></a>Comments</h3><ul>
+<li>It is pretty surprising that only by “extracting ROI features from earlier stage” and “two stage refinement” could enhance the object detection result significantly</li>
+<li>Extract features from earlier conv stage: high resolution for small objects</li>
+<li>Multi-task loss design is simple (weight for each loss is equal)</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[勤奮與選擇之錨]]></title>
       <url>https://chienyiwang.github.io/2017/04/16/%E5%8B%A4%E5%A5%AE%E8%88%87%E9%81%B8%E6%93%87%E4%B9%8B%E9%8C%A8/</url>
       <content type="html"><![CDATA[<h2 id="遠東軼事：一些感悟"><a href="#遠東軼事：一些感悟" class="headerlink" title="遠東軼事：一些感悟"></a><a href="https://zhuanlan.zhihu.com/p/26178137?group_id=832913642608533504" target="_blank" rel="external">遠東軼事：一些感悟</a></h2><p>這次看了在Facebook AI Lab工作的田淵棟，最近在自己的知乎專欄上發表了一篇文章“一些感悟”，加上這幾天聽的邏輯思維，有了些心得想要記錄下來。田淵棟在ML或是CV界也是鼎鼎大名的人物了（能夠在頂尖的Facebook實驗室工作的都是牛人），因為平時研究需要關係，追蹤了一些跟CV有關的專欄。田淵棟文筆很好，雖然這篇篇幅不長，但字字句句中都有可以發人深省的新觀點。</p>
