@@ -7,7 +7,7 @@
       <title><![CDATA[Improving Object Detection With One Line of Code]]></title>
       <url>https://chienyiwang.github.io/2017/04/21/Improving-Object-Detection-With-One-Line-of-Code/</url>
       <content type="html"><![CDATA[<p><a href="https://arxiv.org/pdf/1704.04503.pdf" target="_blank" rel="external">https://arxiv.org/pdf/1704.04503.pdf</a><br><a href="https://github.com/bharatsingh430/soft-nms" target="_blank" rel="external">Github</a></p>
-<p><img src="/images/螢幕快照 2017-04-21 上午1.45.36" alt="Alt text"></p>
+<p><img src="/images/螢幕快照 2017-04-21 上午1.45.36.png" alt="Alt text"></p>
 <h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h3><ul>
 <li>Soft NMS to solve drawback of NMS</li>
 <li>Suppress the bounding box by linear or gaussian weighting</li>
