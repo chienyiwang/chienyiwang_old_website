@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chienyiwang.github.io/2017/04/21/Improving-Object-Detection-With-One-Line-of-Code/</loc>
+    
+    <lastmod>2017-04-21T08:52:08.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chienyiwang.github.io/2017/04/17/Deep-MANTA-A-Coarse-to-fine-Many-Task-Network-for-joint-2D-and-3D-vehicle-analysis-from-monocular-image/</loc>
     
-    <lastmod>2017-04-17T09:14:51.000Z</lastmod>
+    <lastmod>2017-04-21T08:48:09.000Z</lastmod>
     
   </url>
   
